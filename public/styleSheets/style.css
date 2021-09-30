@@ -9,8 +9,9 @@ body {
     flex-direction: column;
     /* background-color: #FFF3E3; */
 }
-.text-primary{
-    color:red;
+.text-red{
+/* background-color:cyan; */
+
 }
 .fix-res{
     background-color: #FFFFFF;
