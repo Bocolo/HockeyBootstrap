@@ -1,3 +1,5 @@
+
+
 body {
     font-size: 1em;
     font-family:'Open Sans', sans-serif,Arial, Helvetica, sans-serif;
@@ -5,7 +7,10 @@ body {
     min-height:100vh;
     display: flex;
     flex-direction: column;
-    background-color: #FFF3E3;
+    /* background-color: #FFF3E3; */
+}
+.text-primary{
+    color:red;
 }
 .fix-res{
     background-color: #FFFFFF;
@@ -69,14 +74,14 @@ body {
     margin-bottom: 10px;
     margin-top:20px;
 }
-.row{
+/* .row{
     display: flex;
 }
 .column{
     flex:50%;
     text-align: center;
     padding:0 15px;
-}
+} */
 .column.leftside{
     text-align: left;
 }
@@ -84,9 +89,9 @@ body {
     font-size: 1.3em;
     font-weight: bold;
 }
-.text-center{
+/* .text-center{
     text-align: center;
-}
+} */
 
 .member-img-container{
 
