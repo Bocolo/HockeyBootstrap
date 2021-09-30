@@ -1,0 +1,147 @@
+body {
+    font-size: 1em;
+    font-family:'Open Sans', sans-serif,Arial, Helvetica, sans-serif;
+    margin:0;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF3E3;
+}
+.fix-res{
+    background-color: #FFFFFF;
+}
+.header-image{
+    width:50%;
+    height:auto;
+    margin-left:25%; 
+}
+.clubname{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Rock Salt', cursive;
+}
+.est{
+    text-align: right;
+    padding-right: 20px;
+    padding-top:2px;
+}
+.heading{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bolder;   
+}
+.fix-results-sec{
+    background-color: #CDDAFD;
+    padding:20px 0 ;
+    margin:0;
+    font-family: 'Rock Salt', cursive;
+}
+.fix-results-sec.latest{
+    background-color:  #FFD8A7;
+}
+.updates {
+    padding-left:10vw;
+    padding-right:10vw;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.updatesHeading{
+    font-size: 1.2em;
+}
+.updates-bg{
+    background-color:#FFE5C5; 
+}
+.subtitle{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subt-bg{
+    background-color: #DFE7FD;
+    padding:10px;
+    margin:0;
+    margin-bottom: 10px;
+}
+.teamLevel{
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top:20px;
+}
+.row{
+    display: flex;
+}
+.column{
+    flex:50%;
+    text-align: center;
+    padding:0 15px;
+}
+.column.leftside{
+    text-align: left;
+}
+.vs{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+
+.member-img-container{
+
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.member{
+    display:flex;
+    padding-top:20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.member-image{
+    display: inline-block;   
+    margin-left: 25px;
+    margin-right: 25px;
+    max-height: 350px;
+   border-radius: 50%;
+}
+.member-image:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+}
+.image-text{
+ text-align: center;
+    max-width:200px;
+    margin-top: 15%;
+}
+
+.links{
+    Color: #219ebc;  
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+
+.links.email{
+    color:#bc218d;
+}
+.links.email:hover{
+    color:#C8419F;
+    font-weight: bold;
+}
+.links:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color:#2C8C99;
+}
+footer {   
+    height:auto;
+    margin-top: auto;
+    padding-bottom: 30px;   
+}
