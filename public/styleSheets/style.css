@@ -2,12 +2,15 @@
 
 body {
     font-size: 1em;
-    font-family:'Open Sans', sans-serif,Arial, Helvetica, sans-serif;
+    font-family:'Open Sans',Arial, Helvetica, sans-serif;
     margin:0;
     min-height:100vh;
     display: flex;
     flex-direction: column;
     /* background-color: #FFF3E3; */
+}
+.svg{
+    width:35%;
 }
 .mt-10{
     padding-top:20px
@@ -16,49 +19,40 @@ body {
     padding-bottom: 20px;
 }
 .card-title{
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
 }
+.btn{
+    color:rgb(253, 185, 37)
+}
+.btn:hover{
+    color:rgb(250, 210, 110)
+}
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+ .head-bg{
+background-color: #FFEADB;
+ }
+ .header-bg{
+    background-color:  #FFD1B1
+ }
 .foot-title{
     background-color:rgba(112, 206, 193, 0.507);
 }
 .foot{
     background-color:rgba(90, 197, 223, 0.164);
 }
-.text-red{
-/* background-color:cyan; */
-
+.sub-bg{
+    background-color: rgb(255, 229, 197,.5);
 }
-.fix-res{
-    background-color: #FFFFFF;
-}
-.fix-results-sec{
-    background-color: #CDDAFD;
-    padding:20px 0 ;
-    margin:0;
-    font-family: 'Rock Salt', cursive;
-}
-.fix-results-sec.latest{
-    background-color:  #FFD8A7;
-}
-.updates {
-    padding-left:10vw;
-    padding-right:10vw;
-    padding-top:10px;
-    padding-bottom:10px;
-}
-.updatesHeading{
-    font-size: 1.2em;
-}
-.updates-bg{
-    background-color:#FFE5C5; 
+.level{
+    background-color: rgb(255, 229, 197,.75);
 }
 
-.teamLevel{
-    font-size: 1.1em;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top:20px;
-}
+
+
 
 .links{
     Color: #219ebc;  
@@ -89,94 +83,3 @@ footer {
 
 
 
-
-
-
-
-
-
-/* .row{
-    display: flex;
-}
-.column{
-    flex:50%;
-    text-align: center;
-    padding:0 15px;
-} */
-/* .column.leftside{
-    text-align: left;
-}
-.vs{
-    font-size: 1.3em;
-    font-weight: bold;
-} */
-/* .text-center{
-    text-align: center;
-} */
-/* 
-.member-img-container{
-
-  display:flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-.member{
-    display:flex;
-    padding-top:20px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.member-image{
-    display: inline-block;   
-    margin-left: 25px;
-    margin-right: 25px;
-    max-height: 350px;
-   border-radius: 50%;
-}
-.member-image:hover{
-    transition: all .5s ease-in-out;
-    transform: scale(1.1);
-}
-.image-text{
- text-align: center;
-    max-width:200px;
-    margin-top: 15%;
-}
-
-.subtitle{
-    font-size: 1.2em;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.subt-bg{
-    background-color: #DFE7FD;
-    padding:10px;
-    margin:0;
-    margin-bottom: 10px;
-}
-
-.header-image{
-    width:50%;
-    height:auto;
-    margin-left:25%; 
-}
-.clubname{
-    text-align: center;
-    font-size: 3em;
-    font-family: 'Rock Salt', cursive;
-}
-.est{
-    text-align: right;
-    padding-right: 20px;
-    padding-top:2px;
-}
-.heading{
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: bolder;   
-} */
