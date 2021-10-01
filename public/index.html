@@ -7,12 +7,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+        <!-- Meta - for screen reszing on devices - google DevTools -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
         <script>src="./scipts/scoll.js"</script>
         <Title>
             Frozen Shamrocks
         </Title>
     </head>
     <body>
+        <!-- Navigation -->
         <nav  class="foot-title navbar navbar-light navbar-expand-md ">
             <section class="container-fluid  ">
                     <ul class="navbar-nav">
@@ -34,20 +37,21 @@
                     </div>
             </section>
         </nav>
+        <!-- Main Image / Top Section -->
         <section class="text-center pt-4 pb-4">
             <img class="svg h-auto " src="images/hockey.svg" alt="Hockey SVG"/>
             <h1 >Home of the Frozen Shamrocks</h1>
-            <div class="text-end">
+            <div class="text-end pe-3 py-3">
                 Shredding Ice since 1994<br>
                 <a class="links " href="https://www.scientology.ie/" target="_blank">Join Our Ice Hockey Club Today</a>
             </div>
             <h3>Don't Take The Biscuit...<i> Shoot It</i></h3>
         </section>
   
+        <!-- Latest News and Updates -->
         <div class="card " id="news">
             <div class="card-body  p-0 w-100">
                 <h4 class="card-title  mb-0 text-center foot-title border-bottom pt-3 pb-3 text-black">Latest News and Updates</h4>
-                <!-- card-title mb-0 text-center foot-title border-bottom pt-3 pb-3 text-black -->
                 <div class="container-fluid m-0 p-0">
                     <div class="card-header foot "><b>Blitz Events</b></div>
                     <p class="card-text ">Currently the Club is trying to organise a Blitz event with other local teams.  So far, 6 teams are signed up and we are awating a response from 5 others.
@@ -67,22 +71,18 @@
                         Check back here for updates in the coming months, as prices and dates are subject to change.
                     </p>
                     <div class="card-header foot "><b>Congratulations Jim Halpert</b></div>
-                    <p class="card-text  pb-3">The Club would also like to congratulate one of out Junior Member, Jim Halpert, on qualifying for an International Scholarship to Canada.
+                    <p class="card-text  pb-3">The Club would also like to congratulate one of out Junior Members, Jim Halpert, on qualifying for an International Scholarship to Canada.
                         You will be sorely missed by the club and your teammates, we are all rooting for you and looking forward to updates on your travels.
                     </p>
                 </div>
-
-
-
-
-          
             </div>
         </div>
-    
+        <!-- Fixtures and Results -->
         <section class="card">
             <div class="card-body p-0 w-100">
                
                     <h4 class="card-title mb-0 text-center foot-title border-bottom pt-3 pb-3 text-black">Fixtures & Results</h4>
+                    <!-- Results -->
                     <div  class=" foot card-header row me-0" id="results">
                         <div class="col-6 ">
                             <b>Results</b>
@@ -96,10 +96,7 @@
                             
                         </div>
                     </div>
-
-                
                     <div class="container fs-6 ">
-                        <!-- <div  class="card-header lead text-red"><b>Results</b></div> -->
                         <div class="lead mb-10 mt-10  text-center fw-bold">
                             <b>Senior</b>
                         </div>
@@ -139,10 +136,11 @@
                                 <div class="col-12 text-center col-sm-2 fw-bold">VS</div>
                                 <div class="col-12 text-center col-sm-5 ">Westport Warriors<br>4</div>
                             </div>
+                            <br>
                         </div>
                     </div>
-                    <!-- <div class="teamLevel fs-4"><b>Senior</b></div> -->
-                    <!-- <div  class=" foot card-header"><b>Upcoming Games</b></div> -->
+                   
+                    <!-- Upcoming Games -->
                     <div  class=" foot  card-header row me-0" id="upcoming">
                         <div class="col-6">
                             <b>Upcoming Games</b>
@@ -153,18 +151,8 @@
                             aria-controls="level-up">
                             <i><b>Toggle Fixtures</b></i>
                             </button>
-                            
                         </div>
                     </div>
-
-<!-- 
-
-                    <button class="btn  btn-outline-info  "data-bs-toggle="collapse" data-bs-target="#level-up" 
-                    aria-expanded="true" 
-                    aria-controls="level-up">
-                    Toggle Upcoming Games
-                    </button> -->
-
                     <div class="container fs-6">
                         <div class="lead mb-10 mt-10 text-center fw-bold"><b>Senior</b></div>
                         <div  class="show multi-collapse"   id="level-up">
@@ -196,28 +184,25 @@
                               <div class="col-12 text-center col-sm-2 fw-bold">VS</div>
                               <div class="col-12 text-center col-sm-5 ">The Ice Caps</div>
                             
+                            </div>
+                            <br>
                         </div>
-                        </div>
-                        
-                        <br>
                     </div>
-               
             </div>
         </section>
 
 
-
+        <!-- Meet Out Club Members -->
         <section class="card  d-none d-sm-block "  id="members">
             <div class="card-body p-0 w-100">
                 <h4 class="card-title mb-0 text-center foot-title border-bottom pt-3 pb-3 text-black">Meet Our Club</h4>
-                <!-- card-title mb-0 text-center foot-title border-bottom pt-3 pb-3 text-black -->
                 <div class="card-header foot">Our club is home to some amazing players, event planner, coachs and management.  Let us introduce you to just a few.</div>
                 <br><br>
                 <div class="container">
                     <div class="row">
                         <figure class="col-4 text-center "><img class="figure-img img-fluid rounded-circle" src="images/woman.jpg" alt="Woman in Snow">
                             <figcaption class="figure-caption"><b class="fs-5">Chairperson: Angela Martin </b><br>
-                                Angela has been a proud member and supporter of the Frozen Shamrocks for over 10years.
+                                Angela has been a proud member and supporter of the Frozen Shamrocks for over 10 years.
                             Her contributions have made us who we are today. </figcaption>
                         </figure>
                         <figure class="col-4 text-center "><img class="figure-img img-fluid rounded-circle" src="images/man.jpg" alt="Woman in Snow">
@@ -238,16 +223,13 @@
             </div>
         </section>
 
-
+        <!-- Footer -->
         <footer class="text-center  text-muted pb-0"  id="footer">
             <section class="card ">
                 <div class="card-body p-0 foot w-100">
                     <h4 class="card-title foot-title border-bottom pt-3 pb-3 text-black">Find Out More</h4>
-                    <!-- card-title mb-0 text-center foot-title border-bottom pt-3 pb-3 text-black -->
                     <div class="container p-0  ps-3 w-100 text-start">
-                    
                         <div class="row">
-                           
                             <div class="col-sm-6 col-12 ">
                                 <h5 class=" mt-3 mb-3 text-uppercase fw-bold">Resources</h5>
                                 <p>
@@ -270,7 +252,6 @@
                                     <a  class="links"  href="https://www.freepik.com/photos/background" target="_blank">Background photo created by senivpetro - www.freepik.com</a></p>
                                
                             </div>
-                    
                         </div>
                         <div class="text-end pb-3"><br>Built by B. Colton<br>21128535</div>
                     </div>
@@ -303,3 +284,17 @@
         </script>
     </body>
 </html>
+                        <!-- <div  class="card-header lead text-red"><b>Results</b></div> -->
+
+     <!-- <div class="teamLevel fs-4"><b>Senior</b></div> -->
+                    <!-- <div  class=" foot card-header"><b>Upcoming Games</b></div> -->
+<!-- 
+
+                    <button class="btn  btn-outline-info  "data-bs-toggle="collapse" data-bs-target="#level-up" 
+                    aria-expanded="true" 
+                    aria-controls="level-up">
+                    Toggle Upcoming Games
+                    </button> -->
+                    <!-- card-title mb-0 text-center foot-title border-bottom pt-3 pb-3 text-black -->
+                <!-- card-title mb-0 text-center foot-title border-bottom pt-3 pb-3 text-black -->
+                <!-- card-title mb-0 text-center foot-title border-bottom pt-3 pb-3 text-black -->
