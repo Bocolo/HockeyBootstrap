@@ -40,9 +40,16 @@ body {
 
 .foot-title{
     background-color:rgba(112, 206, 193, 0.507);
+    /* background-color: rgb(255, 213, 122); */
 }
 .foot{
     background-color:rgba(90, 197, 223, 0.164);
+    /* background-color: rgb(255, 229, 197,.5); */
+
+}
+.news-member{
+    background-color: #fff3e359;
+    /* background-color: rgb(255, 213, 122,.6); */
 }
 .sub-bg{
     background-color: rgb(255, 229, 197,.5);
@@ -51,12 +58,19 @@ body {
     background-color: rgb(255, 229, 197,.75);
 }
 .links{
-    Color: #219ebc;  
+    color: #ff77af;
+    /* Color: #219ebc;   */
+    /* color:rgb(253, 185, 37); */
     text-decoration: none;
     display: inline-block;
     transition: all .2s ease-in-out;
 }
-
+.links.top-link{
+    Color: #219ebc;
+}
+.links.top-link:hover{
+    color:#2C8C99;
+}
 .links.email{
     color:#bc218d;
 }
@@ -67,15 +81,22 @@ body {
 .links:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    color:#2C8C99;
+    color: #ff3e8d;
+    /* color:#2C8C99; */
+    /* color:rgb(250, 210, 110) */
 }
 footer {   
     height:auto;
     margin-top: auto;
     padding-bottom: 30px;   
 }
+@media screen and (max-width:370px){
+    .container.ps-4{
+        font-size: .9em;
+    }
+}
 
 
 
 
-
+/* #ff77af */
